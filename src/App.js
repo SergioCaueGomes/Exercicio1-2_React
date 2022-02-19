@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'
 import Primeiro from './components/primeiro'
 import CompPadrao, {Component1, Component2} from './components/Multi.js'
 
