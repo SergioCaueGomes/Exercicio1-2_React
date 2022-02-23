@@ -25,6 +25,15 @@ function App() {
 
 export default App;
 
+
+
+{/* <Primeiro />
+<Segundo />
+<Ronaldo/>
+<Component1/>
+<Component2/> */} 
+
+
 //FuncãoAnonima e exportando direto
 //export default function(){
   //return <h3>Primeiro Componente</h3>

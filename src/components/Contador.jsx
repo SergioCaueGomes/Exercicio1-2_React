@@ -2,13 +2,14 @@ import { useState } from "react";
 import React from "react";
 
 export default props => {
-    const [numero ,setNumero] = useState(props.inicial) 
+    const [numero ,setNumero] = useState(props.inicial)
+    
     
 
     const inc = () => {
         setNumero(numero + props.passo)
 
-        if (numero >=100) {
+        if (numero >= props.limite) {
             return
         }
     }
@@ -17,7 +18,7 @@ export default props => {
         if (numero == 0) {
             return
         }
-        setNumero(numero - props.passo)
+        setNumero(numero - props.limite)
     }
     return ( 
         <>
