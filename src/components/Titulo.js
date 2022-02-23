@@ -1,7 +1,9 @@
+import '../Estilos.css'
+
 export default props => {
-    return(
+    return (
         <div>
-            <h2>{props.principal}</h2>
+            <h2 className='titulo'>{props.principal}</h2>
             <h2>{props.secundario}</h2>
         </div>
     )
